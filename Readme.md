@@ -32,3 +32,4 @@ The folder contains php.ini. If you need to configure your php setup, you can ma
 - **Definitive Guide to Docker Compose:** https://gabrieltanner.org/blog/docker-compose
 # phpTasks
 # phpTasks
+# phpTasks
