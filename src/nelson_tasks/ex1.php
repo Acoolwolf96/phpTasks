@@ -8,6 +8,8 @@
 
 </head>
 <body>
+    <?php include 'ex2/header.php';
+    ?>
 <h3>3.1 Write PHP code to output the following message: Hello world! My name is "David"
 </h3>
 <?php
@@ -61,5 +63,6 @@
 <img src="./image1.png" alt="web development environment"/>
 
 
+<?php include 'ex2/footer.php'; ?>
 </body>
 </html>
