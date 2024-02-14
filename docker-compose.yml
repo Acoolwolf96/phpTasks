@@ -13,7 +13,7 @@ services:
       - lan
       
   db: # mysql database server
-    image: mysql:8.0.34
+    image: mysql:latest
     restart: always #this restarts the service upon any configuration changes
     environment: # to use and access MySQL server,we neet to set up an authentication environment
       MYSQL_ROOT_PASSWORD: password
@@ -35,7 +35,8 @@ services:
       PMA_HOST: db
     networks:
       - lan 
-      
+     
+  
 volumes:
   dbdata:
 networks:
